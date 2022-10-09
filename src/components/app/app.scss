@@ -1,0 +1,24 @@
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+
+@mixin widthSite {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.wrapperApp{
+    @include widthSite;
+}
+
+
+ul{
+    @include reset;
+}
+
+
+
+
