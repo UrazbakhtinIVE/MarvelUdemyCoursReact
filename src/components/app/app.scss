@@ -1,14 +1,18 @@
+$activTexteColor:#9F0013;
+$textColor: #000;
+
+
 
 @mixin reset {
     margin: 0;
     padding: 0;
 }
 
-
 @mixin widthSite {
     max-width: 1224px;
     margin: 0 auto;
 }
+
 
 .wrapperApp{
     @include widthSite;
