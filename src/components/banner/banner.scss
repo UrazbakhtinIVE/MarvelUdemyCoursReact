@@ -1,0 +1,21 @@
+.banner{
+    background:  #232222;
+    width: 1235px;
+    height: 100px;
+    .item_banner{
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        padding-left: 45px;
+    }
+    h2{
+        max-width: 250px;
+        color: #FFFFFF;
+        margin-right: 472px;
+        
+    }
+    .logo{
+        padding-right: 25px;
+    }
+}
