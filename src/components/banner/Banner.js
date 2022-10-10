@@ -9,10 +9,9 @@ function Banner() {
   return (
     <div className='banner'>
         <div className='item_banner'>
-            <img src={avengers} alt='Avengers'></img>
+           <a href='#'><img src={avengers} alt='Avengers'></img></a> 
                 <h2>New comics every week! Stay tuned!</h2>
-            <img className='logo' src={logo} alt='logo' ></img>
-        </div>
+                    <a href='#'><img className='logo' src={logo} alt='logo'></img></a>           </div>
     </div>
   );
 }
