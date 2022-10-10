@@ -1,6 +1,14 @@
 $activTexteColor:#9F0013;
 $textColor: #000;
 
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
 
 
 @mixin reset {
@@ -19,9 +27,7 @@ $textColor: #000;
 }
 
 
-ul{
-    @include reset;
-}
+
 
 
 
