@@ -14,17 +14,18 @@ a{
 @mixin reset {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 @mixin widthSite {
-    max-width: 1224px;
+    max-width: 1124px;
     margin: 0 auto;
 }
 
 
-.wrapperApp{
-    @include widthSite;
-}
+// .wrapperApp{
+//     @include widthSite;
+// }
 
 
 
